@@ -1,0 +1,363 @@
+/* .image22
+{
+  
+  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/portfolio/5.jpg");
+  background-image: url("../assets/img/portfolio/4.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  
+  color: #fff;
+  
+} */
+.color{
+  background: black;
+  color: white;
+  /* border-radius: 40px; */
+}
+.color1{
+  background: goldenrod;
+  border-radius: 8px;
+  /* padding-bottom: 5rem; */
+  color: wheat;
+}
+.color2{
+  background: grey;
+  color: wheat;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-size: 40%;
+  background-image: url("../assets/img/map-image.png");
+  background-position: center center;
+  background-attachment: scroll;
+  background-position: right;  
+}
+/* .navbar{
+  color: lawngreen;
+} */
+.navbar-nav li{
+  color: yellowgreen;
+
+}
+/* .dropdown-menu a{
+  font-size: 12px;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown-menu{
+  background-color: rgb(80, 80, 219);
+} */
+
+
+.color55{
+  background-image: url('../assets/img/portfolio/istockphoto-1136737448-1024x1024.jpg');
+  
+  background-size: 70px;
+  background-repeat: repeat-x;
+  background-position: right top;
+}
+.color55{
+  background-image: url('../assets/img/portfolio/istockphoto-1136737448-1024x1024.jpg');
+  
+  background-size: 70px;
+  background-repeat: repeat-x;
+  background-position: right top;
+} */
+/* header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.page-section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/* .navbar-brand{
+  box-sizing: border-box;
+} */
+.section-subheading{
+  font-size: medium;
+}
+.margin{
+  margin-bottom: 20px;
+}
+.item1{
+ height: 800px;
+}
+.carousel-caption{
+  /* content: inherit; */
+  margin-top: 50px;
+  color: whitesmoke;
+  padding-top: 40px;
+  /* margin-top: 1000px; */
+  padding-bottom: 40px;
+  
+  
+  
+  
+}
+.carousel-caption::-webkit-scrollbar-button{
+  display: none;
+}
+.btn {
+  background-color: rgb(82, 82, 218);
+  border-radius: 6px;
+  padding-top: 10px;
+  margin-top: 300px;
+  color: whitesmoke;
+  margin-bottom: 100px;
+  margin-right: 500px;
+
+}
+/* .dropdown-toggle li{
+  background-color: black;
+} */
+
+
+/* .dropdown:hover #hover1{
+  display: block;
+  outline-style: none;
+  color: #aaa;
+  
+} */
+/* .submenu1:hover #hover2{
+  display: block;
+  color: black;
+  
+  
+  
+} */
+/* .submenu1:hover{
+  
+  float: right;
+  
+} */
+/* .submenu2:hover #hover3{
+  display: block;
+  color: black;
+  
+  
+} */
+/* .submenu2:hover{
+  
+  float: right; 
+  
+  
+} */
+
+
+/* .navbar{
+  color: white;
+} */
+/* .dropdown:hover{
+  display: block;
+} */
+
+
+/* .dropdown{
+  color: white;
+  text-decoration: none;
+  display: relative;
+}
+a{
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+} */
+.sub-menu a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  background-color: none;
+
+}
+/* #color666{
+  color: black;
+} */
+/* .dropdown-menu.a{
+  color: black;
+}
+.dropdown{
+  color: black;
+} */
+.zoom:hover {
+  transform: scale(1.2); 
+}
+.carousel-container{
+  width: 1000px;
+  margin: 50px auto;
+  background: #ccc;
+  min-height: 200px;
+  
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .carousel-container {
+    width: 85%;
+  }
+}
+
+.carousel-container .carousel-inner{
+  overflow: hidden;
+}
+
+.carousel-container .track{
+  display: inline-flex;
+  transition: transform 0.3s;
+}
+.carousel-container .card-container{
+  width: 200px;
+  flex-shrink: 0;
+  height: 250px;
+  /* border: 1px solid #aaa; */
+  /* padding-right: 15px; */
+  box-sizing: border-box;
+}
+.carousel-container .card-container .card{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+  
+}
+.nav button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.nav .prev{
+  left: -30px;
+  display: none;
+  
+  
+}
+/* .buttonnav{
+  padding-top: 10px;
+  background-color: navy;
+} */
+.nav .prev.show{
+  
+  display: block;
+}
+.nav .next{
+  right: -30px;
+  
+   
+  
+}
+
+.bg-dark{
+  background: black !important;
+
+}
+.bg-dark.scrolled{
+background: rgb(80, 80, 219) !important;
+}
+
+.card-container .card .card-heading{
+  font-size: small;
+  text-align: center;
+  background-color: black;
+  color: #aaa;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .hidden { display: none;}
+.readmore { margin: 0 5px;} */
+/* .font{
+  font-size: small;
+} */
+/* .navbar-fixed-top.scrolled {
+  background-color: rgb(148, 36, 36) !important;
+  transition: background-color 200ms linear;
+} */
+.carousel-fade .carousel-inner .item{
+  opacity: 2;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active{
+  opacity: 1; 
+}
+.morecontent span {
+  display: none;
+}
+/* p .ReadMore {
+  display: visible;
+} */
+.owl-prev{
+  left: -40px;
+}
+.owl-next{
+  right: -40px;
+}
+.owl-prev , .owl-next{
+  position: absolute;
+  top: 80px;
+  
+}
+.owl-prev span , .owl-next span{
+  font-size: 80px ;
+}
+.ReadMore{
+  display: visible;
+}
+.morecontent span {
+  display: none;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+  color: black;
+}
+
+.dropdown-submenu {
+  position:relative;
+  
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+.dropdown-menu{
+  background-color: black;
+  font-size: 12px;
+  
+} 
+.dropdown-menu li a{
+  color: yellowgreen;
+  
+}
+
